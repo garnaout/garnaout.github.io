@@ -1,0 +1,49 @@
+SimCanvas.setScales: xsize_m=244.8 xsize=10 ysize=10 xstart=-3 ystart=6, l_straight_m=155.39999999999998, rdlen_m=687.7911184307751
+SimCanvas.newValues(): STRAIGHT_ROAD=false choice_Szen= 2 choice_Geom= 1
+IDM.initialize():  veqTab[0]=0.0, veqTab[100]=16.201012105157588
+IDM.initialize():  veqTab[0]=0.0, veqTab[100]=16.24235026195221
+IDM.initialize():  veqTab[0]=0.0, veqTab[100]=10.978304858053988
+Cstr of LaneChange(5 args): db=0.2 bsave=12.0
+Cstr of LaneChange(5 args): db=0.3 bsave=12.0
+MicroStreet(args) cstr: roadLength=753.9822368615503
+----------------------
+MicroSim2_1.init(): xsize=1300
+textFont=java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=13], sbFont=java.awt.Font[family=SansSerif,name=SansSerif,style=plain,size=10]
+MicroSim2_0.makeGlobalLayout:Applet-size=1300 X 600, Client-size=1180 X 480
+SimCanvas.setScales: xsize_m=244.8 xsize=10 ysize=10 xstart=-3 ystart=6, l_straight_m=155.39999999999998, rdlen_m=687.7911184307751
+MicroSim2_0.start()
+SimCanvas.setScales: xsize_m=244.8 xsize=1180 ysize=272 xstart=-98 ystart=163, l_straight_m=1074.75, rdlen_m=2526.4911184307753
+SimCanvas.newValues2(): STRAIGHT_ROAD=false choice_Szen= 2 choice_Geom= 1
+MicroSim2_0.makeGlobalLayout:Applet-size=1300 X 600, Client-size=1180 X 480
+SimCanvas.setScales: xsize_m=244.8 xsize=1180 ysize=272 xstart=-98 ystart=163, l_straight_m=1074.75, rdlen_m=2526.4911184307753
+MicroSim2_0.start()
+SimCanvas.start(choice_Szen=2, density=0.042)
+IDM.initialize():  veqTab[0]=0.0, veqTab[100]=16.201012105157588
+IDM.initialize():  veqTab[0]=0.0, veqTab[100]=16.24235026195221
+IDM.initialize():  veqTab[0]=0.0, veqTab[100]=10.978304858053988
+Cstr of LaneChange(5 args): db=0.2 bsave=12.0
+Cstr of LaneChange(5 args): db=0.3 bsave=12.0
+MicroStreet(args) cstr: roadLength=2526.4911184307753
+SimCanvas.start: mergingpos=1501.7411184307753,l_straight_m=1074.75,total_rmplen_m=221.2
+IDM.initialize():  veqTab[0]=0.0, veqTab[100]=16.201012105157588
+IDM.initialize():  veqTab[0]=0.0, veqTab[100]=16.24235026195221
+IDM.initialize():  veqTab[0]=0.0, veqTab[100]=10.978304858053988
+Cstr of LaneChange(5 args): db=0.2 bsave=12.0
+Cstr of LaneChange(5 args): db=0.3 bsave=12.0
+MicroStreet(args) cstr: roadLength=221.2
+Cstr of LaneChange(5 args): db=-2.0 bsave=12.0
+IDM.initialize():  veqTab[0]=0.0, veqTab[100]=16.201012105157588
+SimCanvas.run()
+SimCanvas.setScales: xsize_m=244.8 xsize=1180 ysize=272 xstart=-98 ystart=163, l_straight_m=1074.75, rdlen_m=2526.4911184307753
+SimCanvas.paint()
+test: -1
+street.size()=0
+test: -1
+street.size()=1
+test: -1
+Lane: 0
+test: -1
+Lane: 2
+MicroSim2_0.action(...)
+MicroSim2_0.stop()
+SimCanvas.stop()
