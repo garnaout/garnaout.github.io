@@ -1,5 +1,4 @@
-# If you would like to crawl GitHub contact us at support@github.com.
-# We also provide an extensive API: http://developer.github.com/
+ithub.com/
 
 User-agent: baiduspider
 Disallow: /new
