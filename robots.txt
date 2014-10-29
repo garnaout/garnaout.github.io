@@ -1,4 +1,3 @@
-ithub.com/
 
 User-agent: baiduspider
 Disallow: /new
