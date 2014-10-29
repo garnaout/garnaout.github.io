@@ -2,61 +2,61 @@
 # We also provide an extensive API: http://developer.github.com/
 
 User-agent: baiduspider
-Disallow: /_new_
+Disallow: /new
 
 User-agent: CCBot
-Disallow: /_new_
+Disallow: /new
 
 User-agent: coccoc
-Disallow: /_new_
+Disallow: /new
 
 User-agent: dotbot
-Disallow: /_new_
+Disallow: /new
 
 User-agent: duckduckbot
-Disallow: /_new_
+Disallow: /new
 
 User-agent: Googlebot
-Disallow: /_new_
+Disallow: /new
 
 User-agent: ia_archiver
-Disallow: /_new_
+Disallow: /new
 
 User-agent: IntuitGSACrawler
-Disallow: /_new_
+Disallow: /new
 
 User-agent: msnbot
-Disallow: /_new_
+Disallow: /new
 
 User-agent: naverbot
-Disallow: /_new_
+Disallow: /new
 
 User-agent: red-app-gsa-p-one
-Disallow: /_new_
+Disallow: /new
 
 User-agent: rogerbot
-Disallow: /_new_
+Disallow: /new
 
 User-agent: SandDollar
-Disallow: /_new_
+Disallow: /new
 
 User-agent: seznambot
-Disallow: /_new_
+Disallow: /new
 
 User-agent: Slurp
-Disallow: /_new_
+Disallow: /new
 
 User-agent: Swiftbot
-Disallow: /_new_
+Disallow: /new
 
 User-agent: Telefonica
-Disallow: /_new_
+Disallow: /new
 
 User-agent: teoma
-Disallow: /_new_
+Disallow: /new
 
 User-agent: Twitterbot
-Disallow: /_new_
+Disallow: /new
 
 User-agent: Yandex
-Disallow: /_new_
+Disallow: /new
