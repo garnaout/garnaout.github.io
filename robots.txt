@@ -1,2 +1,62 @@
-User-agent: *
-Disallow: /_new_/
+# If you would like to crawl GitHub contact us at support@github.com.
+# We also provide an extensive API: http://developer.github.com/
+
+User-agent: baiduspider
+Disallow: /_new_
+
+User-agent: CCBot
+Disallow: /_new_
+
+User-agent: coccoc
+Disallow: /_new_
+
+User-agent: dotbot
+Disallow: /_new_
+
+User-agent: duckduckbot
+Disallow: /_new_
+
+User-agent: Googlebot
+Disallow: /_new_
+
+User-agent: ia_archiver
+Disallow: /_new_
+
+User-agent: IntuitGSACrawler
+Disallow: /_new_
+
+User-agent: msnbot
+Disallow: /_new_
+
+User-agent: naverbot
+Disallow: /_new_
+
+User-agent: red-app-gsa-p-one
+Disallow: /_new_
+
+User-agent: rogerbot
+Disallow: /_new_
+
+User-agent: SandDollar
+Disallow: /_new_
+
+User-agent: seznambot
+Disallow: /_new_
+
+User-agent: Slurp
+Disallow: /_new_
+
+User-agent: Swiftbot
+Disallow: /_new_
+
+User-agent: Telefonica
+Disallow: /_new_
+
+User-agent: teoma
+Disallow: /_new_
+
+User-agent: Twitterbot
+Disallow: /_new_
+
+User-agent: Yandex
+Disallow: /_new_
