@@ -9,8 +9,8 @@
     system can make safely. Then rebuild coverage, roles and playbooks around
     that split so the team scales without adding headcount.
   proof: >-
-    At Abnormal AI I deployed internal agents across CSM workflows, from
-    health-score analysis to renewal forecasting.
+    At Abnormal AI, my team deployed internal agents across CSM workflows,
+    from health-score analysis to renewal forecasting.
 
 - title: Fix retention and make expansion forecastable
   body: >-
@@ -27,8 +27,8 @@
     dedicated CSM, so high-touch teams can spend their time on enterprise
     growth.
   proof: >-
-    The digital program I built at Abnormal AI cut tech-touch churn by more
-    than 22%.
+    The digital program my team built at Abnormal AI cut tech-touch churn by
+    more than 22%.
 
 - title: Make partners and channels retain and grow
   body: >-

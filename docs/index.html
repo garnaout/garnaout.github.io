@@ -28,7 +28,7 @@ body_class: home
         <summary>See the numbers</summary>
         <div id="model-table"></div>
       </details>
-      <p class="model__note">Simple compounding on a $10M base with no new customers. An illustration, not a forecast. I held net retention above 136% at CloudHealth by VMware.</p>
+      <p class="model__note">Simple compounding on a $10M base with no new customers. An illustration, not a forecast. My team held net retention above 136% at CloudHealth by VMware.</p>
     </div>
   </div>
 </section>
@@ -45,7 +45,7 @@ body_class: home
         <dd>Kiva Systems, now Amazon Robotics</dd>
       </div>
       <div>
-        <dt>Advisor to</dt>
+        <dt>Advised</dt>
         <dd>Scale Venture Partners</dd>
         <dd>OpenView</dd>
         <dd>Container xChange</dd>
@@ -96,7 +96,7 @@ body_class: home
   <div class="wrap">
     <div class="section__head">
       <h2 id="track-title">Track record</h2>
-      <p>Four software companies and a robotics startup, from the first post-sales hire to a global organization, with two acquisitions lived from the inside.</p>
+      <p>Four software companies and a robotics startup, from the first post-sales hire to a global organization, with three exits along the way.</p>
     </div>
 
     <table class="ledger">
@@ -112,7 +112,7 @@ body_class: home
         <tr>
           <td class="ledger__years">{{ row.years }}</td>
           <th scope="row" class="ledger__where">
-            <span class="ledger__company">{{ row.company }}</span>
+            <span class="ledger__company">{{ row.company }}{% if row.exit and row.exit != "" %} <span class="ledger__exit">({{ row.exit }})</span>{% endif %}</span>
             <span class="ledger__role">{{ row.role }}</span>
           </th>
           <td class="ledger__what">
@@ -217,7 +217,7 @@ body_class: home
       <p>For more than a decade I have built and run post-sales organizations at technology companies, from the first hire to global teams, and through acquisitions by Amazon and VMware.</p>
       <p>I joined CloudHealth Technologies in 2015 as its first Technical Account Manager, when the company was between its seed round and Series A. Over seven years I built the Customer Success function, led it through the acquisition by VMware, and finished as Global Head of Customer Success with a portfolio above $200M in ARR. Since then I have led Customer Success at Exabeam and Abnormal AI, and today I am Chief Customer Officer at Onclusive.</p>
       <p>Before software I was an engineer and researcher. My doctorate is in modeling and simulation, and my first job after it was at Kiva Systems, the warehouse-robotics company that became Amazon Robotics. That training is why I treat Customer Success as a system to be modeled and measured. Health scores, renewal forecasts and coverage models come before opinions.</p>
-      <p>Alongside operating roles I advise early-stage founders through Scale Venture Partners, and I advised more than 25 portfolio founders at OpenView. I have also taught graduate courses in simulation and data management, and published research on traffic simulation and intelligent transportation systems. <a href="{{ '/research/' | relative_url }}">See the research</a>.</p>
+      <p>Alongside operating roles I advise early-stage founders. I have also taught graduate courses in simulation and data management, and published research on traffic simulation and intelligent transportation systems. <a href="{{ '/research/' | relative_url }}">See the research</a>.</p>
     </div>
   </div>
 </section>
