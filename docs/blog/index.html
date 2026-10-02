@@ -1,0 +1,31 @@
+---
+layout: default
+title: Writing
+description: Notes from Georges Arnaout on retention, expansion and where Customer Success is heading.
+---
+<div class="wrap prose-page">
+  <header class="prose-page__header">
+    <h1>Writing</h1>
+    <p class="prose-page__intro">Notes on retention, expansion and where Customer Success is heading, from someone still running it day to day.</p>
+  </header>
+
+  {%- if site.posts.size > 0 %}
+  <ol class="posts posts--index">
+    {%- for post in site.posts %}
+    <li class="post-item">
+      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %Y" }}</time>
+      <div>
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p>{{ post.description | default: post.excerpt | strip_html | strip }}</p>
+      </div>
+    </li>
+    {%- endfor %}
+  </ol>
+  {%- else %}
+  <p class="empty">Nothing published yet. The first posts are on their way.</p>
+  {%- endif %}
+
+  <p class="section__more"><a href="{{ '/feed.xml' | relative_url }}">Subscribe by RSS</a></p>
+</div>
+
+{% include contact.html %}

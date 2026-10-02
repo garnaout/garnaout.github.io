@@ -1,0 +1,49 @@
+# The problems listed under "What I get asked to fix" on the home page.
+# title: the problem, in the client's words
+# body: how you approach it
+# proof: where you have done it (shown in smaller type)
+
+- title: Redesign Customer Success around AI agents
+  body: >-
+    Decide where people stay involved, where agents act, and which decisions a
+    system can make safely. Then rebuild coverage, roles and playbooks around
+    that split so the team scales without adding headcount.
+  proof: >-
+    At Abnormal AI I deployed internal agents across CSM workflows, from
+    health-score analysis to renewal forecasting.
+
+- title: Fix retention and make expansion forecastable
+  body: >-
+    Build health scoring from product telemetry, support data and customer ROI,
+    tie adoption to business outcomes, and turn renewals and expansion into a
+    forecast the board can rely on.
+  proof: >-
+    At CloudHealth by VMware I ran a portfolio above $200M in ARR at more than
+    136% net retention and under 2% gross churn.
+
+- title: Serve the long tail without the cost
+  body: >-
+    Design a digital motion for the accounts that will never justify a
+    dedicated CSM, so high-touch teams can spend their time on enterprise
+    growth.
+  proof: >-
+    The digital program I built at Abnormal AI cut tech-touch churn by more
+    than 22%.
+
+- title: Make partners and channels retain and grow
+  body: >-
+    Give resellers and MSPs the onboarding, playbooks and visibility they need
+    to keep and expand their own customers on your platform.
+  proof: >-
+    I built VMware's global Partner Customer Success organization for
+    CloudHealth and grew partner MRR by about 200% in two years.
+
+- title: Build the organization, or rebuild it
+  body: >-
+    From the first post-sales hire to a global structure spanning Customer
+    Success, technical account management, services, support and renewals,
+    including the integration work that follows an acquisition.
+  proof: >-
+    I started as CloudHealth's first Technical Account Manager, led the
+    function through the VMware acquisition, and rebuilt Exabeam's EMEA and
+    APJ teams.

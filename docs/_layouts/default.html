@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  {% feed_meta %}
+  <link rel="preload" href="{{ '/assets/fonts/archivo-variable.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ '/assets/fonts/source-serif-4-variable.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="icon" href="{{ '/assets/img/favicon-32.png' | relative_url }}" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="{{ '/assets/img/apple-touch-icon.png' | relative_url }}">
+  <meta name="theme-color" content="#0f2744">
+</head>
+<body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
+  {% include header.html %}
+  <main id="main">
+    {{ content }}
+  </main>
+  {% include footer.html %}
+</body>
+</html>

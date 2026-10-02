@@ -1,0 +1,19 @@
+# Talks listed on the home page, newest first.
+# url is optional: a talk without one is listed as plain text.
+
+# The 2020 recording (https://www.youtube.com/watch?v=bBzbQrFQtH0) was not
+# publicly reachable when this site was built, so it is listed without a link.
+# If the video works for you, add the line back:   url: <the link>
+- title: Partner Customer Success trends and lessons learned
+  event: CloudLive
+  year: 2020
+
+- title: Partner success, with Nick Mehta of Gainsight
+  event: CloudLive
+  year: 2019
+  url: https://www.youtube.com/watch?v=SJKcXS4DrZI
+
+- title: Healthscore evolved
+  event: Gainsight Pulse
+  year: 2018
+  url: https://www.youtube.com/watch?v=R-n5HKA4Xiw

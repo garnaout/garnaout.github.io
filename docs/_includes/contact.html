@@ -1,0 +1,14 @@
+<section class="contact" id="contact" aria-labelledby="contact-title">
+  <div class="wrap contact__inner">
+    <h2 id="contact-title">Tell me what you are trying to fix.</h2>
+    <div class="contact__body">
+      <p>Send a short note on where retention or expansion is stuck. I will tell you honestly whether I can help, and who can if I cannot.</p>
+      <p class="contact__actions">
+        <a class="button button--light" href="{{ site.linkedin }}" rel="noopener">Message me on LinkedIn</a>
+        {%- if site.email and site.email != "" %}
+        <a class="contact__email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+        {%- endif %}
+      </p>
+    </div>
+  </div>
+</section>

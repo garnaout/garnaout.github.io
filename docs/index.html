@@ -1,0 +1,227 @@
+---
+layout: default
+body_class: home
+---
+<section class="hero" aria-labelledby="hero-title">
+  <div class="wrap hero__grid">
+    <div class="hero__copy">
+      <h1 id="hero-title">Customer Success is an operating model, not a department.</h1>
+      <p class="hero__lede">I am Georges Arnaout, a Chief Customer Officer and advisor. I help SaaS leadership teams and investors turn retention and expansion into growth they can forecast, and redesign Customer Success for a world where AI agents do much of the execution.</p>
+      <p class="hero__actions">
+        <a class="button button--light" href="#contact">Start a conversation</a>
+        <a class="hero__link" href="#track-record">See the track record</a>
+      </p>
+    </div>
+
+    <div class="model" id="model" data-base="10" data-benchmark="136" data-years="5">
+      <h2 class="model__title">What net retention does to the customers you already have</h2>
+      <div class="model__control" id="model-control" hidden>
+        <label for="model-nrr">Your net revenue retention</label>
+        <output id="model-nrr-value" for="model-nrr">105%</output>
+        <input id="model-nrr" type="range" min="70" max="130" step="1" value="105">
+      </div>
+      <div class="model__chart" id="model-chart">
+        <p class="model__fallback">At 105% net retention, a $10M customer base is worth $12.8M in five years. At 136%, it is worth $46.5M.</p>
+      </div>
+      <p class="model__readout" id="model-readout" aria-live="polite"></p>
+      <details class="model__table" id="model-details" hidden>
+        <summary>See the numbers</summary>
+        <div id="model-table"></div>
+      </details>
+      <p class="model__note">Simple compounding on a $10M base with no new customers. An illustration, not a forecast. I held net retention above 136% at CloudHealth by VMware.</p>
+    </div>
+  </div>
+</section>
+
+<section class="credentials" aria-label="Where I have worked">
+  <div class="wrap">
+    <dl class="credentials__list">
+      <div>
+        <dt>Operator at</dt>
+        <dd>Onclusive</dd>
+        <dd>Abnormal AI</dd>
+        <dd>Exabeam</dd>
+        <dd>CloudHealth by VMware</dd>
+        <dd>Kiva Systems, now Amazon Robotics</dd>
+      </div>
+      <div>
+        <dt>Advisor to</dt>
+        <dd>Scale Venture Partners</dd>
+        <dd>OpenView</dd>
+        <dd>Container xChange</dd>
+      </div>
+    </dl>
+  </div>
+</section>
+
+<section class="section" id="advisory" aria-labelledby="advisory-title">
+  <div class="wrap">
+    <div class="section__head">
+      <h2 id="advisory-title">What I get asked to fix</h2>
+      <p>I work with CEOs and founders, Chief Customer Officers and their leadership teams, and investors who want more from the customers a company already has.</p>
+    </div>
+
+    <ul class="problems">
+      {%- for item in site.data.advisory %}
+      <li class="problem">
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.body }}</p>
+        <p class="problem__proof">{{ item.proof }}</p>
+      </li>
+      {%- endfor %}
+    </ul>
+
+    <div class="formats">
+      <h3 class="formats__title">Ways to work together</h3>
+      <ul class="formats__list">
+        <li>
+          <h4>One-to-one advisory</h4>
+          <p>Regular calls with a CEO, CCO or head of Customer Success on the decisions in front of them.</p>
+        </li>
+        <li>
+          <h4>Working sessions</h4>
+          <p>Small-group sessions for a leadership team or an investor's portfolio, built around one problem.</p>
+        </li>
+        <li>
+          <h4>Longer-term advisory</h4>
+          <p>A formal advisory relationship through a build, a turnaround or an integration.</p>
+        </li>
+      </ul>
+      <p class="formats__note">I take on a small number of advisory engagements alongside my operating role.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tint" id="track-record" aria-labelledby="track-title">
+  <div class="wrap">
+    <div class="section__head">
+      <h2 id="track-title">Track record</h2>
+      <p>Four software companies and a robotics startup, from the first post-sales hire to a global organization, with two acquisitions lived from the inside.</p>
+    </div>
+
+    <table class="ledger">
+      <thead>
+        <tr>
+          <th scope="col">When</th>
+          <th scope="col">Where</th>
+          <th scope="col">What happened</th>
+        </tr>
+      </thead>
+      <tbody>
+        {%- for row in site.data.track_record %}
+        <tr>
+          <td class="ledger__years">{{ row.years }}</td>
+          <th scope="row" class="ledger__where">
+            <span class="ledger__company">{{ row.company }}</span>
+            <span class="ledger__role">{{ row.role }}</span>
+          </th>
+          <td class="ledger__what">
+            <ul>
+              {%- for point in row.points %}
+              <li>{{ point | markdownify }}</li>
+              {%- endfor %}
+            </ul>
+          </td>
+        </tr>
+        {%- endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+{%- if site.data.testimonials and site.data.testimonials.size > 0 %}
+<section class="section" id="testimonials" aria-labelledby="testimonials-title">
+  <div class="wrap">
+    <div class="section__head">
+      <h2 id="testimonials-title">What people say</h2>
+    </div>
+    <ul class="quotes">
+      {%- for t in site.data.testimonials %}
+      <li>
+        <blockquote>
+          <p>{{ t.quote }}</p>
+          <footer><cite>{{ t.name }}</cite><span>{{ t.role }}</span></footer>
+        </blockquote>
+      </li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
+{%- endif %}
+
+<section class="section" id="writing" aria-labelledby="writing-title">
+  <div class="wrap">
+    <div class="section__head">
+      <h2 id="writing-title">Writing</h2>
+      <p>Notes on where Customer Success is heading, from someone still running it day to day.</p>
+    </div>
+
+    {%- if site.posts.size > 0 %}
+    <ol class="posts">
+      {%- for post in site.posts limit: 3 %}
+      <li class="post-item">
+        <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %Y" }}</time>
+        <div>
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          <p>{{ post.description | default: post.excerpt | strip_html | strip }}</p>
+        </div>
+      </li>
+      {%- endfor %}
+    </ol>
+    <p class="section__more"><a href="{{ '/blog/' | relative_url }}">All writing</a></p>
+    {%- else %}
+    <p class="empty">The first posts are on their way.</p>
+    {%- endif %}
+
+    <div class="talks">
+      <h3 class="talks__title">Talks</h3>
+      <ul class="talks__list">
+        {%- for talk in site.data.talks %}
+        <li>
+          {%- if talk.url and talk.url != "" %}
+          <a href="{{ talk.url }}" rel="noopener">{{ talk.title }}</a>
+          {%- else %}
+          <span>{{ talk.title }}</span>
+          {%- endif %}
+          <span class="talks__meta">{{ talk.event }} {{ talk.year }}</span>
+        </li>
+        {%- endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tint" id="about" aria-labelledby="about-title">
+  <div class="wrap about">
+    <div class="about__aside">
+      {%- if site.photo and site.photo != "" %}
+      <img class="about__photo" src="{{ site.photo | relative_url }}" alt="Georges Arnaout" width="320" height="320" loading="lazy">
+      {%- else %}
+      <div class="about__monogram" aria-hidden="true">GA</div>
+      {%- endif %}
+      <dl class="about__facts">
+        <div>
+          <dt>Based in</dt>
+          <dd>Madrid, working with teams across North America, EMEA and APAC</dd>
+        </div>
+        <div>
+          <dt>Education</dt>
+          <dd>Ph.D. in Engineering Management and Systems Engineering, Old Dominion University</dd>
+          <dd>M.S. in Computer Science, Old Dominion University</dd>
+          <dd>B.S. in Computer Science, University of Balamand</dd>
+        </div>
+      </dl>
+    </div>
+    <div class="about__body prose">
+      <h2 id="about-title">About</h2>
+      <p>For more than a decade I have built and run post-sales organizations at technology companies, from the first hire to global teams, and through acquisitions by Amazon and VMware.</p>
+      <p>I joined CloudHealth Technologies in 2015 as its first Technical Account Manager, when the company was between its seed round and Series A. Over seven years I built the Customer Success function, led it through the acquisition by VMware, and finished as Global Head of Customer Success with a portfolio above $200M in ARR. Since then I have led Customer Success at Exabeam and Abnormal AI, and today I am Chief Customer Officer at Onclusive.</p>
+      <p>Before software I was an engineer and researcher. My doctorate is in modeling and simulation, and my first job after it was at Kiva Systems, the warehouse-robotics company that became Amazon Robotics. That training is why I treat Customer Success as a system to be modeled and measured. Health scores, renewal forecasts and coverage models come before opinions.</p>
+      <p>Alongside operating roles I advise early-stage founders through Scale Venture Partners, and I advised more than 25 portfolio founders at OpenView. I have also taught graduate courses in simulation and data management, and published research on traffic simulation and intelligent transportation systems. <a href="{{ '/research/' | relative_url }}">See the research</a>.</p>
+    </div>
+  </div>
+</section>
+
+{% include contact.html %}
+
+<script src="{{ '/assets/js/model.js' | relative_url }}" defer></script>

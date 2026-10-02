@@ -1,0 +1,15 @@
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="wordmark" href="{{ '/' | relative_url }}">Georges Arnaout</a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="{{ '/#advisory' | relative_url }}">Advisory</a></li>
+        <li><a href="{{ '/#track-record' | relative_url }}">Track record</a></li>
+        <li><a href="{{ '/blog/' | relative_url }}"{% if page.url contains '/blog/' %} aria-current="page"{% endif %}>Writing</a></li>
+        <li><a href="{{ '/#about' | relative_url }}">About</a></li>
+        <li><a class="site-nav__cta" href="{{ '/#contact' | relative_url }}">Start a conversation</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>

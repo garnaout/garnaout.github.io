@@ -1,0 +1,6 @@
+Fonts in this folder are distributed under the SIL Open Font License 1.1.
+
+Archivo: Copyright The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+Source Serif 4: Copyright Adobe (https://github.com/adobe-fonts/source-serif)
+
+Licence text: https://openfontlicense.org/open-font-license-official-text/

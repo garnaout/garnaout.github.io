@@ -1,0 +1,39 @@
+# The "Track record" table on the home page, newest first.
+# points: one line each. Wrap a figure in ** ** to make it bold.
+
+- years: 2026 to now
+  company: Onclusive
+  role: Chief Customer Officer
+  points:
+    - Lead the global customer organization across Customer Success, Account Management, Services, Revenue Operations and Customer Education.
+
+- years: 2024 to 2026
+  company: Abnormal AI
+  role: Vice President, Global Customer Success
+  points:
+    - Led Customer Success, Renewals, Professional Services and Technical Account Management worldwide.
+    - Deployed internal AI agents that automate CSM workflows, from health-score analysis to renewal forecasting.
+    - Built a digital Customer Success program that cut tech-touch churn by **more than 22%**.
+
+- years: 2022 to 2024
+  company: Exabeam
+  role: Vice President, Customer Success, first international and then global
+  points:
+    - Rebuilt the EMEA and APJ Customer Success organizations.
+    - Implemented Gainsight for predictive health scoring and renewal forecasting.
+    - Redesigned the global organization ahead of the Thoma Bravo acquisition.
+
+- years: 2015 to 2022
+  company: CloudHealth by VMware
+  role: First Technical Account Manager to Global Head of Customer Success
+  points:
+    - Built the Customer Success function from the seed stage and led it through the acquisition by VMware.
+    - Ran a portfolio above **$200M in ARR** at **more than 136% net retention** and **under 2% gross churn**.
+    - Grew partner MRR by **about 200%** in two years.
+    - Brought Customer Success, technical account management, services and support into one operating model and shortened time-to-value by **30%**.
+
+- years: From 2011
+  company: Kiva Systems, now Amazon Robotics
+  role: Client Solutions
+  points:
+    - Joined the warehouse-robotics startup before it was acquired by Amazon.
