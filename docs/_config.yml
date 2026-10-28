@@ -16,7 +16,7 @@ email: ""
 # Your photo, shown in the About section. Add the file to assets/img/ and put
 # its path here, for example: /assets/img/georges-arnaout.jpg
 # While this is empty the site shows a monogram instead.
-photo: ""
+photo: "/assets/img/Screenshot%202026-10-28%20at%2010.21.53.png"
 
 # url and baseurl are deliberately not set. GitHub Pages fills them in from the
 # repository, so the site works at garnaout.github.io/<repo>/ or on a custom
